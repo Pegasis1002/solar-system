@@ -1,10 +1,10 @@
 import Image from "next/image";
-import SideBar from "./components/sideBar";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="Main">
-      <SideBar />
+      <Link href="pages/solarExplorer">Solar Explorer</Link>
     </div>
   );
 }
