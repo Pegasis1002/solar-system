@@ -4,7 +4,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="Main">
-      <Link href="pages/solarExplorer">Solar Explorer</Link>
+      <div className="">
+        <Link href="pages/solarExplorer">Solar Explorer</Link>
+      </div>
     </div>
   );
 }
